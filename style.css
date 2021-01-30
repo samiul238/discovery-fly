@@ -65,13 +65,28 @@ nav ul li a:hover, a.active{
 .inp-width{
     min-width: 300px;
 }
- .plus-minus-btn{
-    color: #3352F2;
-    font-size: 30px;
-    padding: 2px;
-    margin-top: 10px;
+.plus-btn{
+    color: #fff;
+    background-color:darkgreen;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 12px;
     word-spacing: 20px;
     border: none;
+    margin-right: 19px;
+    border-radius: 5px;
+} 
+
+.minus-btn{
+    color: #fff;
+    background-color:red;
+    font-size: 12px;
+    padding: 10px;
+    margin-top: 12px;
+    word-spacing: 20px;
+    border: none;
+    padding-right: 12px;
+    border-radius: 5px;
 } 
 .booking-form  .calculations{
     margin: 10px 0;
@@ -120,4 +135,41 @@ nav ul li a:hover, a.active{
 .amount{
     display: flex;
     justify-content: space-between;
+}
+
+
+
+.show-info{
+    height: 358px;
+    width: 500px;
+    background-color: #fff;
+    margin-top: 25px;
+    border-radius: 14px;
+    display : none;
+   
+    
+}
+.show-info h3{
+    color: darkgreen;
+    text-align : center;
+    margin-top: 18px;
+} 
+
+.smile{
+    height: 20px;
+    width: 20px;
+    
+}
+
+.show-info p{
+    text-align: center;
+    font-weight: 700;
+    margin-top: 55px;
+    font-size: 14px;
+}
+
+.close-button{
+    padding-right: 20px;
+    margin-left: 200px;
+    margin-top: 70px;
 }
